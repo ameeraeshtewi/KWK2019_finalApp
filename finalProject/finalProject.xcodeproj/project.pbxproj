@@ -12,7 +12,7 @@
 		1882CFB022DF88B50093FE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1882CFAE22DF88B50093FE66 /* Main.storyboard */; };
 		1882CFB322DF88B50093FE66 /* finalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1882CFB122DF88B50093FE66 /* finalProject.xcdatamodeld */; };
 		1882CFB822DF88B70093FE66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1882CFB622DF88B70093FE66 /* LaunchScreen.storyboard */; };
-		1882CFC022DFE7400093FE66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1882CFBF22DFE7400093FE66 /* Assets.xcassets */; };
+		1883DCA622E22C3400D1D47C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1883DCA522E22C3400D1D47C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		1882CFB222DF88B50093FE66 /* finalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = finalProject.xcdatamodel; sourceTree = "<group>"; };
 		1882CFB722DF88B70093FE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1882CFB922DF88B70093FE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1882CFBF22DFE7400093FE66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/finalProject-master/Assets.xcassets"; sourceTree = "<group>"; };
+		1883DCA522E22C3400D1D47C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				1882CFAA22DF88B50093FE66 /* AppDelegate.swift */,
+				1883DCA522E22C3400D1D47C /* Assets.xcassets */,
 				1882CFAC22DF88B50093FE66 /* ViewController.swift */,
 				1882CFAE22DF88B50093FE66 /* Main.storyboard */,
-				1882CFBF22DFE7400093FE66 /* Assets.xcassets */,
 				1882CFB622DF88B70093FE66 /* LaunchScreen.storyboard */,
 				1882CFB922DF88B70093FE66 /* Info.plist */,
 				1882CFB122DF88B50093FE66 /* finalProject.xcdatamodeld */,
@@ -126,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1882CFB822DF88B70093FE66 /* LaunchScreen.storyboard in Resources */,
-				1882CFC022DFE7400093FE66 /* Assets.xcassets in Resources */,
+				1883DCA622E22C3400D1D47C /* Assets.xcassets in Resources */,
 				1882CFB022DF88B50093FE66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

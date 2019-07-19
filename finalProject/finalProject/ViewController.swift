@@ -78,51 +78,74 @@ class ViewController: UIViewController {
     }
     
 
-    @IBAction func worldHungerorg(_ sender: Any){
+    @IBAction func worldHungernews(_ sender: Any){
     UIApplication.shared.open(URL(string: "https://www.worldhunger.org/hunger-news/global/")! as URL,
     options: [:], completionHandler: nil)
 }
     
+    @IBAction func huffPost(_ sender: Any) {
+    UIApplication.shared.open(URL(string: "https://www.huffpost.com/topic/equal-rights")! as URL,
+    options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func bbc(_ sender: Any){
+    UIApplication.shared.open(URL(string: "https://www.bbc.com/news/topics/cnegp3jvj32t/ocean-pollution")! as URL,
+    options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func scienceDaily(_ sender: Any){
+    UIApplication.shared.open(URL(string: "https://www.sciencedaily.com/news/mind_brain/mental_health/")! as URL,
+    options: [:], completionHandler: nil)
+    }
+    
     //Equal rights
     
-    ////the advocates for human rights
-    //UIApplication.shared.open(URL(string: "http://www.theadvocatesforhumanrights.org/")! as URL,
-    //            options: [:], completionHandler: nil)
-    //
-    ////American civil liberties union
-    //UIApplication.shared.open(URL(string: "https://www.aclu.org/")! as URL,
-    //                          options: [:], completionHandler: nil)
-    //
-    ////Heartland Alliance
-    //UIApplication.shared.open(URL(string: "https://www.aclu.org/")! as URL,
-    //                          options: [:], completionHandler: nil)
-    
+    //the advocates for human rights
+    @IBAction func advocatesForHumanRights(_ sender: Any) {
+    UIApplication.shared.open(URL(string: "http://www.theadvocatesforhumanrights.org/")! as URL,
+                options: [:], completionHandler: nil)
+    }
+    //American civil liberties union
+    @IBAction func americanCivilLibertiesUnion(_ sender: Any) {
+    UIApplication.shared.open(URL(string: "https://www.aclu.org/")! as URL,
+                              options: [:], completionHandler: nil)
+    }
+    //Heartland Alliance
+    @IBAction func heartlandAlliance(_ sender: Any) {
+    UIApplication.shared.open(URL(string: "https://www.aclu.org/")! as URL,
+                              options: [:], completionHandler: nil)
+    }
     //Saving oceans
     
     //Oceana
-    //UIApplication.shared.open(URL(string: "https://oceana.org/")! as URL,
-    //                         options: [:], completionHandler: nil)
-    //
-    ////The nature conservancy
-    //UIApplication.shared.open(URL(string: "https://www.nature.org/en-us/")! as URL,
-    //                          options: [:], completionHandler: nil)
-    //
-    ////greenpeace
-    //UIApplication.shared.open(URL(string: "https://www.greenpeace.org/usa/")! as URL,
-    //                          options: [:], completionHandler: nil)
-    
+    @IBAction func oceana(_ sender: Any) {
+    UIApplication.shared.open(URL(string: "https://oceana.org/")! as URL,
+                             options: [:], completionHandler: nil)
+    }
+    //The nature conservancy
+    @IBAction func theNatureConservancy(_ sender: Any) {
+    UIApplication.shared.open(URL(string: "https://www.nature.org/en-us/")! as URL,
+                              options: [:], completionHandler: nil)
+    }
+    //greenpeace
+    @IBAction func greenPeace(_ sender: Any) {
+    UIApplication.shared.open(URL(string: "https://www.greenpeace.org/usa/")! as URL,
+                              options: [:], completionHandler: nil)
+    }
     
     //mental health
     
     //the trevor project
-    //UIApplication.shared.open(URL(string: "https://www.thetrevorproject.org/survey-2019/?section=Introduction
-    //")! as URL,
-    //                          options: [:], completionHandler: nil)
-    //
-    ////national institute of mental health
-    //UIApplication.shared.open(URL(string: "https://www.nimh.nih.gov/index.shtml")! as URL,
-    //                          options: [:], completionHandler: nil)
     
+    @IBAction func trevorProject(_ sender: Any) {
+    UIApplication.shared.open(URL(string: "https://www.thetrevorproject.org/survey-2019/?section=Introduction")! as URL,
+                              options: [:], completionHandler: nil)
+    }
+        //national institute of mental health
+    @IBAction func NIMH(_ sender: Any) {
+    UIApplication.shared.open(URL(string: "https://www.nimh.nih.gov/index.shtml")! as URL,
+                              options: [:], completionHandler: nil)
+    }
 
 }
 
